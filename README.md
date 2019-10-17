@@ -24,7 +24,7 @@ language: 'en_US' # default
 min_word_length: 5 # default
 max_word_length: 999 # default is Infinity
 max_suggestions_number: 3 # default
-keywords:
+keywords: # spell check will be performed only the diff contain a word in this list
   - context
   - it
   - describe
