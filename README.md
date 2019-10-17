@@ -24,6 +24,10 @@ language: 'en_US' # default
 min_word_length: 5 # default
 max_word_length: 999 # default is Infinity
 max_suggestions_number: 3 # default
+keywords:
+  - context
+  - it
+  - describe
 ignored_words: # words in this list won't be marked as misspelled
   - aspell
   - boolean
